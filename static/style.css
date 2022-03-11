@@ -45,12 +45,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     background-repeat: no-repeat;
     transition: background-size 400ms;
   }
-  
-  @media (max-width: 600px) {
-    .name:active {
-      background-size: 0 3px, 100% 3px;
-    }
-  }
+
   
 
   .name:hover {
@@ -86,3 +81,19 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 a {
   text-decoration: none;
 }
+
+
+#vid {
+  width:483px;
+  height:533px;
+  margin-bottom:-90px;
+}
+
+@media (max-width: 800px) {
+  #vid {
+    width:292px;
+    height:323px;
+    margin-bottom:-30px;
+  }
+}
+
