@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Kamil Kornek - Portfolio</title>
+<title>Python Rougelikegame</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -25,7 +25,7 @@
   <p style="padding-left: 7px;padding-right: 7px;">About</p>
   </a>
   <p style="padding-top:1px;"></p>
-  <a href="#projects" class=" w3-button w3-padding-large image-zoom">
+  <a href="#photos" class=" w3-button w3-padding-large image-zoom">
   <!--  <i class="fa fa-eye w3-xxlarge"></i> -->
   <img src="static/folder.png" height="32" width="32">
     <p>Projects</p>
@@ -51,26 +51,37 @@
 <!-- Page Content -->
 <div class="w3-padding-large" id="main">
   <!-- Header/Home -->
-  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h1 class="w3-jumbo"><span class="w3-hide-small name">I'm Kamil Kornek.</span></h1>
-    <p>Full Stack Web Developer</p>
-    <img src="static/profile.jpg" alt="profile_pictrue" class="profile" width="500" height="500">
+  <header class="w3-container w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small name">Python</span></h1>
+    <p><h4>Rougelike game</h4></p>
+    <video style="border:1px solid white;"width="483" height="533" autoplay>
+      <source src="static/python.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
   </header>
 
   <!-- About Section -->
-  <div class="w3-center w3-black" id="about"><h1 class="w3-jumbo"><span class="w3-hide-small name">About me</span></h1></div>
-  <div class="w3-content w3-justify w3-text-grey">
-    <hr style="width:100%" class="w3-opacity">
-    <p>My name is Kamil Kornek, I am 25 years old and I am learning to program. 
-      In addition to programming, i am interested in video games and cars. 
-      I became seriously interested in programming in October 2021. 
-      I then enrolled in a daily programming course. 
-      I chose the Full Stack Web Developer specialization. 
-      Technologies in which i am specializes are: 
-      Python / Flask (Backend), 
-      HTML / CSS (Frontend),
-      JS / Node.js (Backend / Frontend),
-      .NET (Backend). More about my skill you can find below.
+  <div class="w3-content w3-justify w3-text-grey" id="about">
+    <h2 class="w3-text-light-grey">About Project</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Roguelike (or rogue-like) is a subgenre of role-playing video games 
+      characterized by a dungeon crawl through procedurally generated levels, 
+      turn-based gameplay, grid-based movement, and permanent death of the player character.  ~ Wikipedia<br></p>
+      
+      <p>In one of my first project i decided to stay in Windows Shell.<br>
+      My Rougelike Deamons and Dragons has:<br>
+      - 3 levels that are just 2D lists<br>
+      - 3 monster types<br>
+      - NPC you can interact<br>
+      - Items (keys) that you need to go further<br>
+      - Food/Potions to Heal<br>
+      - Items that boost your statistic after pickoup<br>
+      - Turn-based battle system with attack/heal<br>
+      - SmartEquip (characters always equip better item if founded)<br>
+      - Boss fight<br></p>
+
+      <p>These project was written in 2 sprints (4 days each), was separated to several files to better management.
+      Rougelike game was one of my firsts projects ever, so code can be a little messy :).</p>
     </p>
     <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
     <p class="w3-wide"><span class="link-hover">Python/Flask</span></p>
@@ -109,7 +120,7 @@
       <i class="fa fa-download"></i> Download Resume
     </button>
     
-    <!-- Testimonials 
+    <!-- Testimonials -->
     <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
     <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
     <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
@@ -117,66 +128,37 @@
     
     <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
     <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
-    <p>No one is better than John Doe.</p> -->
+    <p>No one is better than John Doe.</p>
   <!-- End About Section -->
   </div>
   
   <!-- Portfolio Section -->
-      <!-- Header/Home -->
-      <div class="w3-content w3-justify w3-black" id="projects">
-        <h1 class="w3-jumbo w3-center"><span class="w3-hide-small name">My Projects</span></h1>
-        <div class="w3-row" >
-          <div class="w3-half" w3-left>
-            <p><a class='link-hover' href='#python'>Python Rougelikegame</a></p>
-            <p><a class='link-hover' href=''>Python/Flask Simple web app like StackOverFlow</a></p>
-            <p><a class='link-hover' href=''>Placeholder</a></p>
-          </div>
-    
-          <div class="w3-half">
-            <p><a class='link-hover' href=''>Placeholder</a></p>
-            <p><a class='link-hover' href=''>Placeholder</a></p>
-            <p><a class='link-hover' href=''>Placeholder</a></p>
-          </div>
-        </div>
-        <hr style="width:100%" class="w3-opacity">
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Projects</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for links to project pages -->
+    <div class="w3-row-padding" >
+      <div class="w3-half">
+        <p><a class='link-hover' href=''>Python Rougelikegame</a></p>
+        <p><a class='link-hover' href=''>Python/Flask Simple web app like StackOverFlow</a></p>
+        <p><a class='link-hover' href=''>Placeholder</a></p>
       </div>
-      
-      <div class="w3-content w3-center" id="python">
-        <h2 class="w3-xxlarge">Python</h2>
-        <p><h5>Rougelike game</h5></p>
-        <video width="483" height="533" autoplay loop>
-          <source src="static/python.mp4" type="video/mp4">
-        <div width="483" height="533">Your browser does not support the video tag.</div>
-        </video>
-      
-        <h2 class="w3-text-light-grey">About Project</h2>
-        <span class="w3-text-grey"><p>Roguelike (or rogue-like) is a subgenre of role-playing video games 
-          characterized by a dungeon crawl through procedurally generated levels, 
-          turn-based gameplay, grid-based movement, and permanent death of the player character.  ~ Wikipedia<br></p>
-          
-          <p>In one of my first project i decided to stay in Windows Shell.<br>
-          My Rougelike Deamons and Dragons has:<br>
-          - 3 levels that are just 2D lists<br>
-          - 3 monster types<br>
-          - NPC you can interact<br>
-          - Items (keys) that you need to go further<br>
-          - Food/Potions to Heal<br>
-          - Items that boost your statistic after pickoup<br>
-          - Turn-based battle system with attack/heal<br>
-          - SmartEquip (characters always equip better item if founded)<br>
-          - Boss fight<br></p>
-    
-          <p>These project was written in 2 sprints (4 days each), was separated to several files to better management.
-          Rougelike game was one of my firsts projects ever, so code can be a little messy :).</p>
-          </p></span>
-          <hr style="width:100%" class="w3-opacity">
+
+      <div class="w3-half">
+        <p><a class='link-hover' href=''>Placeholder</a></p>
+        <p><a class='link-hover' href=''>Placeholder</a></p>
+        <p><a class='link-hover' href=''>Placeholder</a></p>
+      </div>
+    <!-- End links grid -->
+    </div>
   <!-- End Portfolio Section -->
   </div>
 
   <!-- Contact Section -->
   <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
     <h2 class="w3-text-light-grey">Contact Me</h2>
-    <hr style="width:100%" class="w3-opacity">
+    <hr style="width:200px" class="w3-opacity">
 
     <div class="w3-section">
       <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Chicago, US</p>
