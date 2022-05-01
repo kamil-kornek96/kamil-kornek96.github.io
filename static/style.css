@@ -66,6 +66,22 @@ h6 {
   max-width: 100%;
 }
 
+@media only screen and (min-width: 900px) {
+  .profile {
+    /* border-radius: 250px; */
+    object-fit: scale-down;
+    max-width: 60%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .profile {
+    /* border-radius: 250px; */
+    object-fit: scale-down;
+    max-width: 80%;
+  }
+}
+
 .icon {
   position: relative;
   display: inline;
